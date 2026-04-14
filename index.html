@@ -51,6 +51,7 @@ const supabase = createClient(supabaseUrl, supabaseKey);
  
       document.getElementById("ausgabe").innerHTML = "Tipp gespeichert!"; 
       await laden();
+      speichern();
     } 
  
     async function laden() { 
