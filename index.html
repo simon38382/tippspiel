@@ -51,7 +51,7 @@ const supabase = createClient(supabaseUrl, supabaseKey);
       } 
  
       document.getElementById("ausgabe").innerHTML = "Tipp gespeichert!"; 
-      //await laden(); 
+      await laden();
     } 
  
     async function laden() { 
@@ -79,7 +79,7 @@ document.getElementById("ausgabe").innerHTML = text;
 } 
 window.speichern = speichern; 
 window.laden = laden; 
-//laden(); 
+laden(); 
 </script> 
 </body> 
 </html> 
